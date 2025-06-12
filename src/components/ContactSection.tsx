@@ -46,7 +46,8 @@ const ContactSection = () => {
       } else {
         setResponse("❌ Failed to send message. Please try again.");
       }
-    } catch (err) {
+    } catch (error) {
+      console.error("Error sending contact form:", error); 
       setResponse("❌ Something went wrong. Please try again.");
     } finally {
       setLoading(false);
@@ -87,7 +88,7 @@ const ContactSection = () => {
                 required
               />
               <Input
-                type="phone"
+                type="tel" // Changed to type="tel" for phone numbers
                 name="phone"
                 placeholder="Phone Number"
                 value={form.phone}
