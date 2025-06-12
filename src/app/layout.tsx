@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "Coding and Robotics Solution",
 
   icons: {
-    icon: "/logo.png", 
+    icon: "/logowhite.jpg", 
   },
 };
 

@@ -88,7 +88,7 @@ const ContactSection = () => {
                 required
               />
               <Input
-                type="tel" // Changed to type="tel" for phone numbers
+                type="tel" 
                 name="phone"
                 placeholder="Phone Number"
                 value={form.phone}
@@ -138,7 +138,7 @@ const ContactSection = () => {
             <div>
               <h4 className="text-xl font-semibold mb-1">Office Address</h4>
               <p className="text-muted-foreground text-lg">
-                21 Mikes Street, Aba, Abia State, Nigeria
+                No.2 Christ The King Road, Abayi, Aba, Abia State, Nigeria
               </p>
             </div>
             <div>
