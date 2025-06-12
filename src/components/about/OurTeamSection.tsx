@@ -9,13 +9,12 @@ const teamMembers = [
     image: '/vic.png',
     description: 'Visionary leader with a passion for education, innovation, and tech empowerment.',
   },
-   {
+  { // Corrected: Removed the extra comma that caused an empty element
     name: 'Chukwu Blessing',
     role: 'Administrator',
     image: '/chi.png',
     description: 'Passionate about transforming education through practical learning.',
   },
-  ,
   {
     name: 'Ada Johnson',
     role: 'Lead Software Engineer',
@@ -41,23 +40,26 @@ const OurTeamSection = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition-shadow"
-            >
-              <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  width={96}
-                  height={96}
-                  className="object-cover w-full h-full"
-                />
+            // Ensure 'member' is not undefined before rendering
+            member && (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-sm p-6 text-center hover:shadow-md transition-shadow"
+              >
+                <div className="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={96}
+                    height={96}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold">{member.name}</h3>
+                <p className="text-primary font-medium mb-2">{member.role}</p>
+                <p className="text-muted-foreground text-sm">{member.description}</p>
               </div>
-              <h3 className="text-xl font-semibold">{member.name}</h3>
-              <p className="text-primary font-medium mb-2">{member.role}</p>
-              <p className="text-muted-foreground text-sm">{member.description}</p>
-            </div>
+            )
           ))}
         </div>
       </div>
