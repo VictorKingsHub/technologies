@@ -33,7 +33,6 @@ const Partners = () => {
                 alt={partner.name}
                 width={100}
                 height={100}
-                behaviour='scroll'
                 className="object-contain  hover:grayscale-0 transition duration-300 mx-9"
               />
             </div>
