@@ -64,7 +64,7 @@ const ContactSection = () => {
           Please, fill out the form below
         </p>
         <p className="text-muted-foreground text-center mb-10 max-w-xl mx-auto text-lg">
-          We’re always ready to hear from you — whether you&apos;re a school,
+          We&apos;re always ready to hear from you — whether you&apos;re a school,
           parent, or tech enthusiast!
         </p>
 
@@ -116,7 +116,7 @@ const ContactSection = () => {
               />
               <Button
                 type="submit"
-                className="w-full text-lg"
+                className="w-full text-lg cursor-pointer"
                 disabled={loading}
               >
                 {loading ? "Sending..." : "Send Message"}

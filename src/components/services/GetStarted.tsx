@@ -11,7 +11,7 @@ const GetStarted = () => {
       Partner with <span className="font-semibold">Taughtlevel Technologies</span> to build powerful, future-ready solutions for your school, business, or team.
     </p>
     <a href="/contact">
-      <button className="bg-white text-primary font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">
+      <button className="bg-white text-primary font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition cursor-pointer">
         Contact Us Now
       </button>
     </a>

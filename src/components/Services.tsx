@@ -79,7 +79,7 @@ const Services = () => {
         {/* CTA Button */}
         <div className="text-center mt-16">
           <Link href="contact">
-            <Button size="lg" className="text-lg px-8 py-6 rounded-xl right">
+            <Button size="lg" className="text-lg px-8 py-6 rounded-xl right cursor-pointer">
               Get in Touch with Us <span className='text-white'><FaAngleRight /> </span> 
             </Button>
           </Link>

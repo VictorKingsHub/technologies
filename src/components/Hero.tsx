@@ -26,10 +26,10 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4">
             <Link href="/contact">
-              <Button size="lg">Get Started</Button>
+              <Button size="lg" className="cursor-pointer">Get Started</Button>
             </Link>
             <Link href="/services">
-              <Button size="lg" variant="outline">Explore Services</Button>
+              <Button size="lg" variant="outline" className='cursor-pointer'>Explore Services</Button>
             </Link>
           </div>
         </div>

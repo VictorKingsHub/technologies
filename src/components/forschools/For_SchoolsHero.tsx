@@ -17,7 +17,7 @@ const ForSchoolsHero = () => {
         </p>
         <Button
           size="lg"
-          className="text-lg"
+          className="text-lg cursor-pointer"
           onClick={() => router.push('/contact')}
         >
           Bring Us to Your School
