@@ -11,7 +11,7 @@ const Hero = () => {
         
         {/* Left Content */}
         <div className="flex-1 text-center lg:text-left space-y-6">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-[#00b4d8] leading-tight">
             Empowering the Future Through <br className="hidden md:block" />
             Technology & Education
           </h1>
