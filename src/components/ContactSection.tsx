@@ -85,7 +85,7 @@ const ContactSection = () => {
                 placeholder="Full Name"
                 value={form.name}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500 rounded-md" 
+                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md" 
                 required
               />
               <Input
@@ -94,7 +94,7 @@ const ContactSection = () => {
                 placeholder="Phone Number (e.g., +234 816 754 2553)"
                 value={form.phone}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500 rounded-md"
+                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
                 required
               />
               <Input
@@ -103,7 +103,7 @@ const ContactSection = () => {
                 placeholder="Email Address"
                 value={form.email}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500 rounded-md"
+                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
                 required
               />
               <Textarea
@@ -112,12 +112,12 @@ const ContactSection = () => {
                 rows={6} // Increased rows for more message space
                 value={form.message}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-300 focus:border-blue-500 focus:ring-blue-500 rounded-md resize-y" // Added resize-y
+                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md resize-y" // Added resize-y
                 required
               />
               <Button
                 type="submit"
-                className="w-full text-lg py-3 px-6 bg-blue-100 hover:bg-blue-300 text-white font-semibold rounded-md transition-colors duration-300" // Enhanced button styling
+                className="w-full text-lg py-3 px-6 bg-blue-100 hover:bg-blue-700 text-white font-semibold rounded-md transition-colors duration-700" // Enhanced button styling
                 disabled={loading}
               >
                 {loading ? 'Sending Message...' : 'Send Message'}
@@ -126,7 +126,7 @@ const ContactSection = () => {
               {response && (
                 <p
                   className={`text-center mt-4 text-base font-medium ${ // Adjusted font size and weight
-                    success ? 'text-blue-700' : 'text-red-700' // Stronger success/error colors
+                    success ? 'text-blue-500' : 'text-red-700' // Stronger success/error colors
                   }`}
                 >
                   {response}
@@ -142,7 +142,7 @@ const ContactSection = () => {
             </h3>
             <div className="space-y-8"> {/* Increased spacing between info blocks */}
               <div className="flex items-start"> {/* Aligns icon and text */}
-                <FaMapMarkerAlt className="text-blue-100 text-3xl mr-4 flex-shrink-0 mt-1" /> {/* Icon with brand color */}
+                <FaMapMarkerAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" /> {/* Icon with brand color */}
                 <div>
                   <h4 className="text-xl font-semibold mb-1 text-gray-900">Office Address</h4>
                   <p className="text-gray-700 text-lg">
@@ -152,17 +152,17 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-start">
-                <FaPhoneAlt className="text-blue-100 text-3xl mr-4 flex-shrink-0 mt-1" />
+                <FaPhoneAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="text-xl font-semibold mb-1 text-gray-900">Phone Numbers</h4>
                   <ul className="space-y-2">
                     <li>
-                      <a href="tel:+2348167542553" className="text-blue-100 hover:text-blue-300 transition-colors duration-200 text-lg flex items-center">
+                      <a href="tel:+2348167542553" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-lg flex items-center">
                         +234 816 754 2553
                       </a>
                     </li>
                     <li>
-                      <a href="https://wa.me/2348132119962" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-blue-300 transition-colors duration-200 text-lg flex items-center">
+                      <a href="https://wa.me/2348132119962" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-lg flex items-center">
                         <FaWhatsapp className="mr-2" /> +234 813 211 9962
                       </a>
                     </li>
@@ -171,11 +171,11 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-start">
-                <FaEnvelope className="text-blue-100 text-3xl mr-4 flex-shrink-0 mt-1" />
+                <FaEnvelope className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="text-xl font-semibold mb-1 text-gray-900">Email Address</h4>
                   <p className="text-gray-700 text-lg">
-                    <a href="mailto:kingvic2553@gmail.com" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">
+                    <a href="mailto:kingvic2553@gmail.com" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">
                        kingvic2553@gmailcom
                     </a>
                   </p>
