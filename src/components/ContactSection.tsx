@@ -59,7 +59,7 @@ const ContactSection = () => {
 
   return (
     // Applied a subtle background gradient for a softer look
-    <section className="py-16 md:py-24 bg-gradient-to-br from-green-50 to-white" id="contact">
+    <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-12">
