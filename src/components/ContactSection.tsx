@@ -117,7 +117,7 @@ const ContactSection = () => {
               />
               <Button
                 type="submit"
-                className="w-full text-lg py-3 px-6 bg-blue-100 hover:bg-blue-700 text-white font-semibold rounded-md transition-colors duration-700" // Enhanced button styling
+                className="w-full text-lg py-3 px-6 bg-blue-500 hover:bg-blue-700 text-white font-semibold rounded-md transition-colors duration-700" // Enhanced button styling
                 disabled={loading}
               >
                 {loading ? 'Sending Message...' : 'Send Message'}
