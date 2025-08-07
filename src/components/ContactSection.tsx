@@ -176,7 +176,7 @@ const ContactSection = () => {
                   <h4 className="text-xl font-semibold mb-1 text-gray-900">Email Address</h4>
                   <p className="text-gray-700 text-lg">
                     <a href="mailto:kingvic2553@gmail.com" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">
-                       seaneverdrynatural@gmail.com
+                       kingvic2553@gmailcom
                     </a>
                   </p>
                 </div>
