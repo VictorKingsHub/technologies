@@ -64,7 +64,7 @@ const ContactSection = () => {
         {/* Header Section */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Get in Touch with SEANEVERUNDRY
+            Get in Touch with TAUGHTLEVEL TECHNOLOGIES
           </h2>
           <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto">
             We&apos;re always ready to hear from you — whether you&apos;re a school,
