@@ -13,7 +13,7 @@ const Navbar = () => {
   const pathname = usePathname(); // ✅ Get current path
 
   return (
-    <header className="w-full border-b bg-white sticky top-0 z-50 md:py-2">
+    <header className="w-full border-b bg-blue-50 sticky top-0 z-50 md:py-2">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-primary">

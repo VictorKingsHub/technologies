@@ -72,7 +72,7 @@ const Testimonials = () => {
   });
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="py-20 bg-blue-100">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">What People Are Saying</h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">

@@ -14,7 +14,6 @@ const Home = () => {
       <WhyChooseUs />
       <Testimonials />
       <FaqSection />
-      {/* <Partners /> */}
     </div>
   )
 }

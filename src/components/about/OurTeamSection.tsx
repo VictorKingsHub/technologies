@@ -31,7 +31,7 @@ const teamMembers = [
 
 const OurTeamSection = () => {
   return (
-    <section className="py-20 bg-gray-50" id="our-team">
+    <section className="py-20 bg-blue-50" id="our-team">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Meet Our Team</h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto text-lg">
