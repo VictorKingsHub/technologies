@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navItems } from "@/lib/nav-items";
@@ -10,14 +9,13 @@ import Image from 'next/image';
 
 
 const Navbar = () => {
-  const pathname = usePathname(); // ✅ Get current path
+  const pathname = usePathname();
 
   return (
     <header className="w-full border-b bg-blue-50 sticky top-0 z-50 md:py-2">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-primary">
-          {/* Taught<span className="text-blue-300">level</span> */}
           <Image
             src="/logo.png"
             alt="logo"
@@ -52,7 +50,7 @@ const Navbar = () => {
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
-                <FiMenu className="w-5 h-5" />
+                <FiMenu className="**w-10 h-10**" />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-64 p-6">
