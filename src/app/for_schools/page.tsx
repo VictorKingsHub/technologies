@@ -3,6 +3,7 @@ import WhatWeOfferToSchools from './../../components/forschools/WeOffer';
 import SchoolBenefitsSection from "@/components/forschools/SchoolBenefitsSection";
 import PartnerCTASection from "@/components/forschools/TestimonialsSection";
 import Partners from "@/components/Partners";
+import WhatsAppButton from "@/components/forschools/WhatsAppButton";
 
 const For_Schools = () => {
     return (
@@ -12,6 +13,7 @@ const For_Schools = () => {
             <SchoolBenefitsSection />
             <PartnerCTASection />
             <Partners />
+            <WhatsAppButton />
         </div>
     )
 }
