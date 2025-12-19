@@ -11,7 +11,7 @@ const Footer = () => {
         
         {/* Brand & Description */}
         <div>
-          <h2 className="text-2xl font-bold text-primary mb-2">Taughtlevel</h2>
+          <h2 className="text-2xl font-bold text-white mb-2">Taughtlevel</h2>
           <p className="text-bold leading-relaxed">
             Taughtlevel Technologies offers 21st-century tech services and education,
             including Web Dev, Coding, Robotics, UI/UX, Graphics, and more.
