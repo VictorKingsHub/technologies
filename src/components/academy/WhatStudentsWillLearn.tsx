@@ -70,7 +70,7 @@ const WhatStudentsWillLearn = () => {
 
           <div className="bg-gray-50 rounded-2xl p-6 hover:shadow-md transition">
             <FaUserTie className="text-purple-600 text-4xl mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Mini Portfolio</h3>
+            <h3 className="text-xl font-semibold mb-2">Portfolio</h3>
             <p className="text-gray-600">
               Create a simple portfolio showcasing completed projects.
             </p>
