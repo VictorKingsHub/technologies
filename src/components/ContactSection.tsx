@@ -154,15 +154,15 @@ const ContactSection = () => {
               <div className="flex items-start">
                 <FaPhoneAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="text-xl font-semibold mb-1 text-gray-900">Phone Numbers</h4>
+                  <h4 className="text-sm md:text-xl font-semibold mb-1 text-gray-900">Phone Numbers</h4>
                   <ul className="space-y-2">
                     <li>
-                      <a href="tel:+2348167542553" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-lg flex items-center">
+                      <a href="tel:+2348167542553" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-sm md:text-lg flex items-center">
                         +234 816 754 2553
                       </a>
                     </li>
                     <li>
-                      <a href="https://wa.me/2348132119962" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-lg flex items-center">
+                      <a href="https://wa.me/2348132119962" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-sm md:text-lg flex items-center">
                         <FaWhatsapp className="mr-2" /> +234 813 211 9962
                       </a>
                     </li>
@@ -173,9 +173,9 @@ const ContactSection = () => {
               <div className="flex items-start">
                 <FaEnvelope className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="text-xl font-semibold mb-1 text-gray-900">Email Address</h4>
+                  <h4 className="text-sm md:text-xl font-semibold mb-1 text-gray-900">Email Address</h4>
                   <p className="text-gray-700 text-lg">
-                    <a href="mailto:kingvic2553@gmail.com" className="text-blue-500 hover:text-blue-700 transition-colors duration-200">
+                    <a href="mailto:kingvic2553@gmail.com" className="text-sm md:text-xl text-blue-500 hover:text-blue-700 transition-colors duration-200">
                        kingvic2553@gmailcom
                     </a>
                   </p>
