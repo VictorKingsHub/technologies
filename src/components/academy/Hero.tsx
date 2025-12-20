@@ -6,7 +6,7 @@ import { FaCheckCircle, FaWhatsapp } from 'react-icons/fa'
 const HeroSection = () => {
   return (
     <section className="bg-gradient-to-br flex flex-col md:flex-row from-blue-900 via-blue-800 to-indigo-900 text-white">
-      <div className="max-w-7xl mx-auto px-6 py-5 md:py-20 grid md:grid-cols-2 gap-5 md:gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-6 py-5 md:py-16 grid md:grid-cols-2 gap-5 md:gap-12 items-center">
 
         {/* LEFT CONTENT */}
         <div>
@@ -17,7 +17,7 @@ const HeroSection = () => {
 
           <p className="text-lg text-blue-100 mb-4 md:mb-8">
             Learn HTML, CSS & JavaScript and build real websites from
-            <strong> January-August 2025</strong>. No coding experience required.
+            <strong> January-August 2026</strong>. No coding experience required.
           </p>
 
           {/* HIGHLIGHTS */}
@@ -64,6 +64,10 @@ const HeroSection = () => {
             alt="Students learning web development"
             // className="w-full max-w-md mx-auto"
           />
+
+          <h1 className="text-sm md:text-2xl  leading-tight mt-3 md:mb-6">
+            Master the New School Curriculum
+          </h1>
         </div>
       </div>
     </section>
