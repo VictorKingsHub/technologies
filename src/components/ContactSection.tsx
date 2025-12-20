@@ -91,7 +91,7 @@ const ContactSection = () => {
               <Input
                 type="tel"
                 name="phone"
-                placeholder="Phone Number (e.g., +234 816 754 2553)"
+                placeholder="Phone No. (e.g., +234 816 754 2553)"
                 value={form.phone}
                 onChange={handleChange}
                 className="text-sm md:text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
