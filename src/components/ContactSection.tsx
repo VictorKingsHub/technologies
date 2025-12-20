@@ -137,7 +137,7 @@ const ContactSection = () => {
 
           {/* Contact Info */}
           <div className="bg-white p-8 md:p-10 rounded-xl shadow-lg border border-gray-200 flex flex-col justify-center"> {/* Consistent styling with form */}
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+            <h3 className="text-xl md:text-2xl md:text-3xl font-bold text-gray-900 mb-6">
               Contact Details
             </h3>
             <div className="space-y-8"> {/* Increased spacing between info blocks */}
@@ -145,7 +145,7 @@ const ContactSection = () => {
                 <FaMapMarkerAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" /> {/* Icon with brand color */}
                 <div>
                   <h4 className="text-xl font-semibold mb-1 text-gray-900">Office Address</h4>
-                  <p className="text-gray-700 text-lg">
+                  <p className="text-gray-700 text-sm md:text-lg">
                     No.2 Christ The King Road, Abayi, Aba, Abia State, Nigeria
                   </p>
                 </div>
