@@ -75,7 +75,7 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start"> {/* Uses a grid for two columns on larger screens */}
           {/* Contact Form */}
           <div className="bg-white p-8 md:p-10 rounded-xl shadow-lg border border-gray-200"> {/* Enhanced shadow and border */}
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+            <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-6">
               Send Us a Message
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6 text-lg"> {/* Increased spacing */}
