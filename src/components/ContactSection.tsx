@@ -85,7 +85,7 @@ const ContactSection = () => {
                 placeholder="Full Name"
                 value={form.name}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md" 
+                className="text-sm md:text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md" 
                 required
               />
               <Input
@@ -94,7 +94,7 @@ const ContactSection = () => {
                 placeholder="Phone Number (e.g., +234 816 754 2553)"
                 value={form.phone}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
+                className="text-sm md:text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
                 required
               />
               <Input
@@ -103,7 +103,7 @@ const ContactSection = () => {
                 placeholder="Email Address"
                 value={form.email}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
+                className="text-sm text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
                 required
               />
               <Textarea
@@ -112,7 +112,7 @@ const ContactSection = () => {
                 rows={6} // Increased rows for more message space
                 value={form.message}
                 onChange={handleChange}
-                className="text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md resize-y" // Added resize-y
+                className="text-sm md:text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md resize-y" // Added resize-y
                 required
               />
               <Button
