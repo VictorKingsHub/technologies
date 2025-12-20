@@ -35,7 +35,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-          <p className="text-sm mb-2">📍 No.2 Christ The King Road, Abayi, Aba, Abia State, Nigeria</p>
+          <p className="text-sm mb-2">No.2 Christ The King Road, Abayi, Aba, Abia State, Nigeria</p>
           <ul className="space-y-2  text-bold">
             <li><a href="tel:+2348167542553" className="hover:text-primary">+234 816 754 2553</a></li>
             <li><a href="tel:+2348132119962" className="hover:text-primary">+234 813 211 9962</a></li>
