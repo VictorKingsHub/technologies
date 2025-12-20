@@ -144,7 +144,7 @@ const ContactSection = () => {
               <div className="flex items-start"> {/* Aligns icon and text */}
                 <FaMapMarkerAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" /> {/* Icon with brand color */}
                 <div>
-                  <h4 className="text-xl font-semibold mb-1 text-gray-900">Office Address</h4>
+                  <h4 className="text-sm md:text-xl font-semibold mb-1 text-gray-900">Office Address</h4>
                   <p className="text-gray-700 text-sm md:text-lg">
                     No.2 Christ The King Road, Abayi, Aba, Abia State, Nigeria
                   </p>
@@ -152,7 +152,7 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-start">
-                <FaPhoneAlt className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
+                <FaPhoneAlt className="text-blue-500 text-lg md:text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="text-sm md:text-xl font-semibold mb-1 text-gray-900">Phone Numbers</h4>
                   <ul className="space-y-2">
@@ -163,7 +163,7 @@ const ContactSection = () => {
                     </li>
                     <li>
                       <a href="https://wa.me/2348132119962" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 transition-colors duration-200 text-sm md:text-lg flex items-center">
-                        <FaWhatsapp className="mr-2" /> +234 813 211 9962
+                        <FaWhatsapp className="mr-2 text-lg md:text-3xl" /> +234 813 211 9962
                       </a>
                     </li>
                   </ul>
@@ -171,7 +171,7 @@ const ContactSection = () => {
               </div>
 
               <div className="flex items-start">
-                <FaEnvelope className="text-blue-500 text-3xl mr-4 flex-shrink-0 mt-1" />
+                <FaEnvelope className="text-blue-500 text-lg md:text-3xl mr-4 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="text-sm md:text-xl font-semibold mb-1 text-gray-900">Email Address</h4>
                   <p className="text-gray-700 text-lg">
