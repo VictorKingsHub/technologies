@@ -4,7 +4,7 @@ const MapSection = () => {
   return (
     <section className="w-full mt-16">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-2xl font-semibold text-center mb-4">Find Us On The Map</h2>
+        <h2 className="text-sm md:text-2xl font-semibold text-center mb-4">Find Us On The Map</h2>
         <div className="w-full rounded-xl overflow-hidden shadow-lg">
           <iframe
             title="Taughtlevel Location"
