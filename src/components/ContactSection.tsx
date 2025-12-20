@@ -103,7 +103,7 @@ const ContactSection = () => {
                 placeholder="Email Address"
                 value={form.email}
                 onChange={handleChange}
-                className="text-sm text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
+                className="text-sm md:text-lg p-3 border-gray-700 focus:border-blue-500 focus:ring-blue-500 rounded-md"
                 required
               />
               <Textarea
