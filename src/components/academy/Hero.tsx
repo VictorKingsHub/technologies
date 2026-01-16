@@ -1,32 +1,38 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import { FaCheckCircle, FaWhatsapp } from 'react-icons/fa'
+import Image from "next/image";
+import { FaCheckCircle, FaWhatsapp } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
     <section className="bg-gradient-to-br flex flex-col md:flex-row from-blue-900 via-blue-800 to-indigo-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-5 md:py-16 grid md:grid-cols-2 gap-5 md:gap-12 items-center">
-
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3 md:mb-6">
-            Online Web Development Training for
-            <span className="text-yellow-400"> Secondary School Students</span>
-          </h1>
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3">
+              Web Development Training for Secondary School Students
+            </h1>
+            <br />
+            <h5 className="text-yellow-400 text-2xl font-bold">
+              {" "}
+              The New Academic Tech Curriculum
+            </h5>
+          </div>
 
           <p className="text-lg text-blue-100 mb-4 md:mb-8">
             Learn HTML, CSS & JavaScript and build real websites from
-            <strong> January-August 2026</strong>. No coding experience required.
+            <strong> February-August 2026</strong>. No coding experience
+            required.
           </p>
 
           {/* HIGHLIGHTS */}
           <ul className="space-y-3 mb-5 md:mb-8">
             {[
-              'Beginner Friendly Learning',
-              '100% Online Live Classes',
-              'Build Real Projects',
-              'Certificate Included',
+              "Beginner Friendly Learning",
+              "100% Online Live Classes",
+              "Build Real Projects",
+              "Certificate Included",
             ].map((item, index) => (
               <li key={index} className="flex items-center gap-3">
                 <FaCheckCircle className="text-yellow-400" />
@@ -58,8 +64,8 @@ const HeroSection = () => {
         {/* RIGHT IMAGE / VISUAL */}
         <div className=" md:block">
           <Image
-            width ={500}
-            height = {500}
+            width={500}
+            height={500}
             src="/web-training-hero.png"
             alt="Students learning web development"
             // className="w-full max-w-md mx-auto"
@@ -71,7 +77,7 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
