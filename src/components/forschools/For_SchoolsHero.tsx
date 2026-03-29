@@ -10,13 +10,13 @@ export default function ForSchoolsHero() {
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src="/p3.jpg" // replace with your project video thumbnail or hero image
+          src="/p3.jpg"
           alt="Students working on robotics project"
           layout="fill"
           objectFit="cover"
           className="opacity-70"
         />
-        <div className="absolute inset-0 bg-black/40"></div> {/* overlay */}
+        <div className="absolute inset-0 bg-black/80"></div> 
       </div>
 
       {/* Hero Content */}

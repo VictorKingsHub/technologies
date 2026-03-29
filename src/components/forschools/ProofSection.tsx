@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Robotics Practical Session",
-    image: "/p2.PNG",
+    image: "/p2.png",
   },
   {
     title: "Classroom Engagement",
