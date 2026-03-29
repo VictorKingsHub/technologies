@@ -5,7 +5,6 @@ import Pricing from '@/components/academy/Pricing'
 import ProgramTimeline from '@/components/academy/ProgramTimeline'
 import WhatStudentsWillLearn from '@/components/academy/WhatStudentsWillLearn'
 import WhoItsFor from '@/components/academy/WhoItsFor'
-import React from 'react'
 
 const page = () => {
   return (

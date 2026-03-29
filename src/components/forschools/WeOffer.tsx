@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { FaCode, FaRobot, FaChalkboardTeacher, FaGraduationCap } from 'react-icons/fa';
+import { FaCode, FaRobot, FaGraduationCap } from 'react-icons/fa';
 
 const offerings = [
   {
@@ -15,12 +15,6 @@ const offerings = [
     title: 'Robotics & STEM Projects',
     description:
       'Students get hands-on experience assembling circuits, building simple robots, and engaging in tech challenges that spark creativity.',
-  },
-  {
-    icon: <FaChalkboardTeacher className="text-primary w-8 h-8" />,
-    title: 'Teacher Training',
-    description:
-      'We equip school staff with the skills and tools needed to integrate technology effectively into classrooms and instruction.',
   },
   {
     icon: <FaGraduationCap className="text-primary w-8 h-8" />,
