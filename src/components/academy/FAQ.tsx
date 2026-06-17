@@ -6,31 +6,31 @@ import { FaChevronDown } from 'react-icons/fa'
 const faqs = [
   {
     q: 'Do students need prior coding experience?',
-    a: 'No. This training is beginner-friendly and designed for students with little or no coding experience.',
+    a: 'No, not a requirement.',
   },
   {
-    q: 'Is this training suitable for secondary school students?',
-    a: 'Yes. The program is specially designed for JSS2, JSS3, SS1, SS2, and SS3 students.',
+    q: 'Is this training suitable for students and non-students?',
+    a: 'Yes.',
   },
   {
     q: 'How are the classes conducted?',
-    a: 'All classes are conducted online through live sessions, with additional support via WhatsApp.',
+    a: 'All classes are conducted online',
   },
   {
     q: 'What days and time are the classes?',
-    a: 'Classes are held twice a week. Exact days and time will be communicated after enrolment.',
+    a: 'Classes hold Monday - Fridays.',
   },
   {
     q: 'Will my child receive a certificate?',
     a: 'Yes. Students who complete the training will receive a digital Certificate of Completion from Taughtlevel Technologies.',
   },
   {
-    q: 'Is a laptop compulsory?',
-    a: 'Yes. A laptop is strongly recommended for effective participation in the training.',
+    q: 'Can one use Mobile Phone to join?',
+    a: 'Yes. Mobile Phone, Tablet and Laptop can be used to join the training.',
   },
   {
     q: 'How long is the training?',
-    a: 'The training runs from January to August 2025, covering a total of 8 months.',
+    a: 'The training runs from June to December 2026, covering a total of 7 months.',
   },
   {
     q: 'How do I enroll my child?',
