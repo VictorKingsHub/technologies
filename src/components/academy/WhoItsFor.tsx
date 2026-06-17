@@ -11,7 +11,7 @@ const WhoItsFor = () => {
             Who This Training Is For
           </h2>
           <p className="text-blue-600 font-bold text-lg">
-            Master The New School Curriculum
+            The Passionate who is ready to skill-up in Website design
           </p>
           <p className="text-gray-600 text-lg">
             This program is carefully designed to support young learners who want
@@ -25,10 +25,10 @@ const WhoItsFor = () => {
           <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
             <FaSchool className="text-blue-600 text-3xl mb-4" />
             <h3 className="font-semibold text-xl mb-2">
-              Secondary School Students
+              Passion/Skill-Oriented
             </h3>
             <p className="text-gray-600">
-              Designed for JSS2, JSS3, SS1, SS2 and SS3 students.
+              To build your dream website or render the services of designing website for clients
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const WhoItsFor = () => {
           <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
             <FaLaptop className="text-blue-600 text-3xl mb-4" />
             <h3 className="font-semibold text-xl mb-2">
-              Laptop Access Required
+              Phone or Laptop Access Required
             </h3>
             <p className="text-gray-600">
               A laptop is recommended to fully participate in the training.

@@ -27,22 +27,21 @@ const Pricing = () => {
             One-Time Payment
           </p>
           <h3 className="text-5xl md:text-6xl font-extrabold text-yellow-400 mt-4">
-            ₦75,000
+            ₦25,000
           </h3>
           <p className="text-blue-200 mt-4">
-            Covers the full 8-month training (January – August 2025)
+            Covers the full 7-month training (June – December 2026)
           </p>
         </div>
 
         {/* FEATURES */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto mb-20">
           {[
-            '8 months of structured training',
-            'Two live online classes every week',
-            'HTML, CSS & JavaScript (Beginner)',
+            '7 months of structured training',
+            'live online classes every week',
             'Practical website projects',
             'Portfolio development',
-            'Certificate of completion',
+            'Certification on completion',
           ].map((item, index) => (
             <div key={index} className="flex gap-3 items-start">
               <FaCheckCircle className="text-green-400 mt-1" />
@@ -59,7 +58,7 @@ const Pricing = () => {
             <FaCalendarAlt className="text-yellow-400 text-3xl mx-auto mb-3" />
             <p className="font-semibold">Duration</p>
             <p className="text-blue-200">
-              January – August 2025
+              January – August 2026
             </p>
           </div>
 
@@ -75,7 +74,7 @@ const Pricing = () => {
             <FaLaptop className="text-yellow-400 text-3xl mx-auto mb-3" />
             <p className="font-semibold">Mode</p>
             <p className="text-blue-200">
-              100% Online Learning
+              Online Learning
             </p>
           </div>
         </div>

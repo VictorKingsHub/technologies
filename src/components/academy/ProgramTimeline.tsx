@@ -2,35 +2,26 @@ import { FaCalendarAlt, FaClock, FaLaptop } from 'react-icons/fa'
 
 const timeline = [
   {
-    month: 'January',
-    title: 'Computer & Web Basics',
+    month: 'June',
+    title: 'Introduction to Website Design',
     desc: 'Understanding computers, the internet, and how websites work.',
   },
   {
-    month: 'February – March',
-    title: 'HTML',
-    desc: 'Learning website structure, text, images, and links.',
+    month: 'June-July',
+    title: 'Learning and Practices',
+    desc: 'Overview of website design and development',
   },
   {
-    month: 'March – May',
-    title: 'CSS',
+    month: 'July – August',
+    title: 'Projects, Presentations and Defence',
     desc: 'Styling websites, layouts, and responsive design.',
   },
   {
-    month: 'June',
-    title: 'JavaScript (Beginner)',
-    desc: 'Adding simple interactivity to websites.',
+    month: 'September - December',
+    title: 'Support',
+    desc: 'Interaction and Support Provision.',
   },
-  {
-    month: 'July',
-    title: 'Real Projects',
-    desc: 'Building complete websites from scratch.',
-  },
-  {
-    month: 'August',
-    title: 'Portfolio & Certification',
-    desc: 'Project presentation, portfolio creation, and certification.',
-  },
+  
 ]
 
 const ProgramTimeline = () => {
@@ -44,8 +35,8 @@ const ProgramTimeline = () => {
             Program Structure & Timeline
           </h2>
           <p className="text-gray-600 text-lg">
-            The training runs from January to August 2025 and is structured
-            to help students learn gradually and confidently.
+            The training runs from July through August 2026 and is structured
+            to learn gradually and confidently.
           </p>
         </div>
 
@@ -72,19 +63,19 @@ const ProgramTimeline = () => {
           <div>
             <FaCalendarAlt className="text-blue-600 text-3xl mx-auto mb-3" />
             <h4 className="font-semibold text-lg">Duration</h4>
-            <p className="text-gray-600">January – August 2025</p>
+            <p className="text-gray-600">June – December 2026</p>
           </div>
 
           <div>
             <FaClock className="text-blue-600 text-3xl mx-auto mb-3" />
             <h4 className="font-semibold text-lg">Class Schedule</h4>
-            <p className="text-gray-600">2 classes per week (1–1.5 hrs)</p>
+            <p className="text-gray-600">Mondays - Saturdays through August </p>
           </div>
 
           <div>
             <FaLaptop className="text-blue-600 text-3xl mx-auto mb-3" />
             <h4 className="font-semibold text-lg">Mode of Learning</h4>
-            <p className="text-gray-600">100% Online Live Classes</p>
+            <p className="text-gray-600">Online Live Classes</p>
           </div>
         </div>
 

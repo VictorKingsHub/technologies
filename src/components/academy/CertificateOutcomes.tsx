@@ -1,12 +1,12 @@
 import { FaCertificate, FaCheckCircle } from 'react-icons/fa'
 
 const outcomes = [
-  'Understand how websites work',
-  'Build structured web pages using HTML',
-  'Design and style websites using CSS',
-  'Add basic interactivity using JavaScript',
-  'Build and publish real websites online',
-  'Present a simple project portfolio',
+  'Understand What websites are and how they work',
+  'Build structured web pages',
+  'Design and style websites',
+  'Add basic interactivity',
+  'Project Completion and Presentation',
+  'Portfolio designing',
 ]
 
 const CertificateOutcomes = () => {
@@ -18,7 +18,7 @@ const CertificateOutcomes = () => {
         <div className="bg-gray-50 rounded-3xl p-8 shadow-md text-center">
           <FaCertificate className="text-blue-600 text-6xl mx-auto mb-4" />
           <h3 className="text-2xl font-bold mb-2">
-            Certificate of Completion
+            Certification on Completion
           </h3>
           <p className="text-gray-600">
             Issued by <strong>Taughtlevel Technologies</strong> after

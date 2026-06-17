@@ -11,18 +11,19 @@ const HeroSection = () => {
         <div>
           <div>
             <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3">
-              Web Development Training for Secondary School Students
+              Website Development Training Bootcamp
             </h1>
             <br />
             <h5 className="text-yellow-400 text-2xl font-bold">
               {" "}
-              The New Academic Tech Curriculum
+              Build Professional Websites • Get Clients • Earn Online
             </h5>
           </div>
 
           <p className="text-lg text-blue-100 mb-4 md:mb-8">
-            Learn HTML, CSS & JavaScript and build real websites from
-            <strong> February-August 2026</strong>. No coding experience
+            Learn Website design, design 7 websites and build mastery.
+            <br />
+            <strong> Dedicate the time and skill-up</strong>. No coding experience
             required.
           </p>
 
@@ -30,9 +31,9 @@ const HeroSection = () => {
           <ul className="space-y-3 mb-5 md:mb-8">
             {[
               "Beginner Friendly Learning",
-              "100% Online Live Classes",
-              "Build Real Projects",
-              "Certificate Included",
+              "Online Live Classes",
+              "Build Website Projects",
+              "Certificate of Completion",
             ].map((item, index) => (
               <li key={index} className="flex items-center gap-3">
                 <FaCheckCircle className="text-yellow-400" />
@@ -72,7 +73,7 @@ const HeroSection = () => {
           />
 
           <h1 className="text-sm md:text-2xl  leading-tight mt-3 md:mb-6">
-            Master the New School Curriculum
+           Be ready to Learn and design before joining us.
           </h1>
         </div>
       </div>

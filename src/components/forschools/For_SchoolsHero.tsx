@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function ForSchoolsHero() {
   return (
@@ -20,6 +21,11 @@ export default function ForSchoolsHero() {
       </div>
 
       {/* Hero Content */}
+      <motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+>
       <div className="relative max-w-7xl mx-auto px-6 py-32 flex flex-col items-start lg:items-start">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
           Transform Your School with <span className="text-green-400">Coding, Robotics & Electronics</span>
@@ -53,6 +59,7 @@ export default function ForSchoolsHero() {
           Trusted by schools in <span className="font-semibold">Owerri, Umuahia, Aba, Onitsha</span> and beyond.
         </p>
       </div>
+        </motion.div>
     </section>
   );
 }

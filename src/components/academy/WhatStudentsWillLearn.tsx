@@ -9,21 +9,21 @@ import {
 const benefits = [
   {
     icon: <FaUserGraduate className="text-green-500 text-3xl" />,
-    title: "Improved Student Engagement",
+    title: "Improved Engagement",
     description:
-      "Students become more active and interested when learning is practical and hands-on.",
+      "One become more active and interested when learning is practical and hands-on.",
   },
   {
     icon: <FaSchool className="text-green-500 text-3xl" />,
-    title: "Stronger School Reputation",
+    title: "Creativity Engagement",
     description:
-      "Position your school as a modern, forward-thinking institution that embraces innovation.",
+      "Position into modern, forward-thinking institution that embraces innovation.",
   },
   {
     icon: <FaChartLine className="text-green-500 text-3xl" />,
-    title: "Increased Enrollment",
+    title: "Solve Website problems and earn the reward",
     description:
-      "Attract more parents looking for schools that offer advanced technology education.",
+      "Train for the skills, build for yourself, and solve the society's problem",
   },
   {
     icon: <FaLightbulb className="text-green-500 text-3xl" />,
@@ -40,10 +40,10 @@ export default function SchoolBenefitsSection() {
         
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          What Your School Gains
+          What You Stand To Gain
         </h2>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Partnering with Taughtlevel Technologies gives your school a strong advantage in delivering modern, practical education.
+          Partnering with Taughtlevel Technologies gives you a strong advantage in delivering modern, practical education.
         </p>
 
         {/* Cards */}
