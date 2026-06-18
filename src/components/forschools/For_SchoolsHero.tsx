@@ -28,7 +28,7 @@ export default function ForSchoolsHero() {
 >
       <div className="relative max-w-7xl mx-auto px-6 py-32 flex flex-col items-start lg:items-start">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-          Transform Your School with <span className="text-green-400">Coding, Robotics & Electronics</span>
+          Transform Your School with <span className="text-green-400">Coding, Electronics & Robotics</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl max-w-xl">
           Engage your students, boost school reputation, and prepare them for the future
