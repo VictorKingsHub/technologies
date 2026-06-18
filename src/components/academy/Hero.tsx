@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div>
           <div>
             <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3">
-              Website Development Training Bootcamp
+              Website Design Training Bootcamp
             </h1>
             <br />
             <h5 className="text-yellow-400 text-2xl font-bold">

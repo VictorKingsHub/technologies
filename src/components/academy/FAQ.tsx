@@ -25,7 +25,7 @@ const faqs = [
     a: 'Yes. Students who complete the training will receive a digital Certificate of Completion from Taughtlevel Technologies.',
   },
   {
-    q: 'Can one use Mobile Phone to join?',
+    q: 'Can one use Mobile Phone for the training?',
     a: 'Yes. Mobile Phone, Tablet and Laptop can be used to join the training.',
   },
   {
