@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     q: 'How long is the training?',
-    a: 'The training runs from June to December 2026, covering a total of 7 months.',
+    a: 'The training runs from July to December 2026, covering a total of 7 months.',
   },
   {
     q: 'How do I enroll my child?',

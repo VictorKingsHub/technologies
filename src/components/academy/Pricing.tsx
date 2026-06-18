@@ -27,10 +27,10 @@ const Pricing = () => {
             One-Time Payment
           </p>
           <h3 className="text-5xl md:text-6xl font-extrabold text-yellow-400 mt-4">
-            ₦25,000
+            ₦30,000
           </h3>
           <p className="text-blue-200 mt-4">
-            Covers the full 7-month training (June – December 2026)
+            Covers the full 7-month training (July – December 2026)
           </p>
         </div>
 

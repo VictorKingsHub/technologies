@@ -2,25 +2,20 @@ import { FaCalendarAlt, FaClock, FaLaptop } from 'react-icons/fa'
 
 const timeline = [
   {
-    month: 'June',
+    month: 'July',
     title: 'Introduction to Website Design',
-    desc: 'Understanding computers, the internet, and how websites work.',
+    desc: 'Overview of website design principles .',
   },
   {
-    month: 'June-July',
+    month: 'July-August',
     title: 'Learning and Practices',
-    desc: 'Overview of website design and development',
-  },
-  {
-    month: 'July – August',
-    title: 'Projects, Presentations and Defence',
     desc: 'Styling websites, layouts, and responsive design.',
   },
   {
     month: 'September - December',
-    title: 'Support',
+    title: 'Projects, Presentations and Defence',
     desc: 'Interaction and Support Provision.',
-  },
+  }
   
 ]
 
@@ -63,7 +58,7 @@ const ProgramTimeline = () => {
           <div>
             <FaCalendarAlt className="text-blue-600 text-3xl mx-auto mb-3" />
             <h4 className="font-semibold text-lg">Duration</h4>
-            <p className="text-gray-600">June – December 2026</p>
+            <p className="text-gray-600">July – December 2026</p>
           </div>
 
           <div>
