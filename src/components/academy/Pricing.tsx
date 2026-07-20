@@ -23,7 +23,7 @@ const Pricing = () => {
 
         {/* PRICE */}
         <div className="text-center mb-16">
-          <div className="flex">
+          <div className="flex justify-between gap-8 mx-auto ">
 
           <div>
           <p className="text-lg uppercase tracking-wide text-blue-300">
@@ -34,7 +34,6 @@ const Pricing = () => {
           </h3>
           </div>
 
-<br />
           <div>
           <p className="text-lg uppercase tracking-wide text-blue-300">
             Standard Fee (After Early Bird)  
