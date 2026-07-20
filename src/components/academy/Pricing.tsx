@@ -30,7 +30,7 @@ const Pricing = () => {
             ₦30,000
           </h3>
           <p className="text-blue-200 mt-4">
-            Covers the full 7-month training (July – December 2026)
+            Covers the full 7-month training (August – December 2026)
           </p>
         </div>
 

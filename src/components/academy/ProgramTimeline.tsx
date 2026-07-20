@@ -2,12 +2,12 @@ import { FaCalendarAlt, FaClock, FaLaptop } from 'react-icons/fa'
 
 const timeline = [
   {
-    month: 'July',
+    month: 'August',
     title: 'Introduction to Website Design',
     desc: 'Overview of website design principles .',
   },
   {
-    month: 'July-August',
+    month: 'August-August',
     title: 'Learning and Practices',
     desc: 'Styling websites, layouts, and responsive design.',
   },
@@ -30,7 +30,7 @@ const ProgramTimeline = () => {
             Program Structure & Timeline
           </h2>
           <p className="text-gray-600 text-lg">
-            The training runs from July through August 2026 and is structured
+            The training runs from August through August 2026 and is structured
             to learn gradually and confidently.
           </p>
         </div>
@@ -58,7 +58,7 @@ const ProgramTimeline = () => {
           <div>
             <FaCalendarAlt className="text-blue-600 text-3xl mx-auto mb-3" />
             <h4 className="font-semibold text-lg">Duration</h4>
-            <p className="text-gray-600">July – December 2026</p>
+            <p className="text-gray-600">August – December 2026</p>
           </div>
 
           <div>
