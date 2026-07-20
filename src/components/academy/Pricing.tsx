@@ -23,7 +23,7 @@ const Pricing = () => {
 
         {/* PRICE */}
         <div className="text-center mb-16">
-          <div className="flex justify-between gap-8 mx-auto ">
+          <div className="flex justify-around gap-8 mx-auto ">
 
           <div>
           <p className="text-lg uppercase tracking-wide text-blue-300">
