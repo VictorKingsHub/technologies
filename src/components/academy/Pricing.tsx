@@ -58,7 +58,7 @@ const Pricing = () => {
             <FaCalendarAlt className="text-yellow-400 text-3xl mx-auto mb-3" />
             <p className="font-semibold">Duration</p>
             <p className="text-blue-200">
-              January – August 2026
+              August – December 2026
             </p>
           </div>
 
