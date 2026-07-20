@@ -34,6 +34,7 @@ const Pricing = () => {
           </h3>
           </div>
 
+<br />
           <div>
           <p className="text-lg uppercase tracking-wide text-blue-300">
             Standard Fee (After Early Bird)  
