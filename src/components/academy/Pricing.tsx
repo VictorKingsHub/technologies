@@ -23,14 +23,31 @@ const Pricing = () => {
 
         {/* PRICE */}
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-wide text-blue-300">
-            One-Time Payment
+          <div className="flex">
+
+          <div>
+          <p className="text-lg uppercase tracking-wide text-blue-300">
+            Early Bird Special (Limited Slots)  
           </p>
           <h3 className="text-5xl md:text-6xl font-extrabold text-yellow-400 mt-4">
             ₦45,000
           </h3>
+          </div>
+
+          <div>
+          <p className="text-lg uppercase tracking-wide text-blue-300">
+            Standard Fee (After Early Bird)  
+          </p>
+          <h3 className="text-5xl md:text-6xl font-extrabold text-yellow-600 mt-4">
+            ₦60,000
+          </h3>
+          </div>
+
+          </div>
+
+          
           <p className="text-blue-200 mt-4">
-            Covers the full 7-month training (August – December 2026)
+            Covers the full 5-month training (August – December 2026)
           </p>
         </div>
 
